@@ -32,6 +32,8 @@ from .prefs import ViewerPreferences
 from .template import Template, FlexTemplate
 from .util import get_scale_factor
 
+warnings.warn("voici un test d'affichage")
+
 try:
     # This module only exists in PyFPDF, it has been removed in fpdf2 since v2.5.7:
     # pylint: disable=import-self
